@@ -13,6 +13,7 @@ RUN pip3 install -r requirements.txt
 
 # We add the banana boilerplate here
 ADD server.py .
+ADD convert_original_stable_diffusion_to_diffusers.py .
 
 # Add your model weight files 
 # (in this case we have a python script)
@@ -21,6 +22,7 @@ RUN python3 download.py
 
 
 # Add your custom app code, init() and inference()
+ADD convert_original_stable_diffusion_to_diffusers.py .
 ADD app.py .
 
 EXPOSE 8000

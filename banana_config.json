@@ -1,0 +1,13 @@
+{
+    "name": "Shiba Diffusion",
+    "category": "Computer Vision",
+    "example_input": {
+        "prompt": "a shiba wearing a tuxedo",
+        "inference_steps": 50,
+        "guidance_scale": 4.5
+    },
+    "example_output": {
+        "base64_output": "<BASE64_IMAGE>"
+    },
+    "version": "1"
+  }
