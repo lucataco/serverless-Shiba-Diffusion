@@ -1,9 +1,10 @@
 
-# 🍌 Banana Serverless
+# 🍌 Shiba Diffusion
 
-This repo gives a framework to run inference on a LoRA model in production using simple HTTP servers. The original Poekmon Model with base runwayml/stable-diffusion-v1-5 can be found [here](https://huggingface.co/pcuenq/pokemon-lora)
+This repo gives a framework to run ckpt files on Banana's serverless GPU platform. The example model used here is NowAi's Shiba Diffusion model which can be found [here](https://huggingface.co/lucataco/Shiba)
 
-![demo output image](https://github.com/lucataco/serverless-LoRA-inference-pokemon/blob/main/output.jpg?raw=true)
+<img src="./shibaTux.jpg">
+
 
 # Quickstart
 **[Follow the quickstart guide in Banana's documentation to use this repo](https://docs.banana.dev/banana-docs/quickstart).** 
