@@ -12,7 +12,7 @@ def init():
     # os.system("python convert_original_stable_diffusion_to_diffusers.py --checkpoint_path ./local.ckpt --dump_path sd_weights/")
     model = StableDiffusionPipeline.from_pretrained(
         "sd_weights/", 
-        # safety_checker=None,
+        safety_checker=None,
         revision="fp16",
         torch_dtype=torch.float16
     ).to("cuda")
